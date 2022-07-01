@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  /* color: #0070f3; */
   text-decoration: none;
 }
 
@@ -88,8 +88,9 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  /* color: #0070f3; */
+  color: #ac4414;
+  border-color: #ac4414;
 }
 
 .card h2 {
@@ -114,3 +115,42 @@
     flex-direction: column;
   }
 }
+
+.topnavBackground {
+  background-color: #04051f;
+}
+
+.topnavContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* margin-right: 50px; */
+  /* margin-left: 50px; */
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 1.5em;
+font-weight: 100;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+color: #dd5c21;
+transition: all 0.2s ease-in;
+}
+  

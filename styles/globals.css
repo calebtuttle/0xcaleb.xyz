@@ -2,8 +2,14 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  background-color: #fff4cf;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: #000000;
+  /* color: #101c18; */
+  /* color: #001a14; */
 }
 
 a {
