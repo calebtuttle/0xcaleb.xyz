@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-blue: #04051f;
+  --super-dark-blue: #000019;
+  --orange: #ac4414;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff4cf;
+  font-weight: 900;
+  color: var(--super-dark-blue);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+

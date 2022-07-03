@@ -1,0 +1,25 @@
+
+.rectangleHorizontal {
+  position: relative;
+  width: 30px;
+  height: 200px;
+  background-color: black;
+  border: 10px solid var(--super-dark-blue);
+  border-radius: 10%;
+}
+
+.rectangleVertical {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  background-color: black;
+  border: 10px solid var(--super-dark-blue);
+  border-radius: 10%;
+}
+
+.bookTitle {
+  writing-mode: vertical-lr;
+  /* color: var(--orange); */
+  margin-top: 5px;
+  margin-left: -8px;
+}
