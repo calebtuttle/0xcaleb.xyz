@@ -9,7 +9,7 @@ export default function Navbar() {
       <Head>
         <title>Caleb Tuttle</title>
         <meta name="description" content="Caleb Tuttle's website" />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <div className="font-serif">
         <div className={styles.topnavBackground}>
