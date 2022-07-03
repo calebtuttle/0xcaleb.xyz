@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         <Navbar />
         <AnimatePresence
           exitBeforeEnter
-          initial={false}
+          // initial={false}
           onExitComplete={() => window.scrollTo(0, 0)}
         >
           <Component {...pageProps} />
