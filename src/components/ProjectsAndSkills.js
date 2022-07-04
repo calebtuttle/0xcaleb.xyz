@@ -77,6 +77,8 @@ export default function ProjectsAndSkills() {
           <ul>
             <li>~ JavaScript, Node.js</li>
             <li>~ React</li>
+            <li>~ Ethers.js</li>
+            <li>~ Hardhat</li>
             <li>~ Solidity</li>
             <li>~ Python</li>
             <li>~ SQL</li>
