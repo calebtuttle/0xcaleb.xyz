@@ -1,11 +1,21 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import classNames from 'classnames'
+import { useUserSettings } from '../context/UserSettings'
 import styles from '../styles/Footer.module.css'
 
-const linkClasses = "px-3 hover:text-orange-600 duration-300"
-
 export default function Footer() {
+  const {linkColor} = useUserSettings()
+
+  const linkClasses = classNames({
+    'italic': true,
+    'px-3': true,
+    'duration-300': true,
+    'hover:text-orange-600': linkColor == 'orange',
+    'hover:text-blue-600': linkColor == 'blue',
+  })
+
   return (
     <>
       <div className="italic font-serif">

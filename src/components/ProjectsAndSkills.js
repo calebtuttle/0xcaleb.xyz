@@ -1,9 +1,19 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import classNames from 'classnames'
+import { useUserSettings } from '../context/UserSettings'
 
 export default function ProjectsAndSkills() {
-  const linkClasses = "text-orange-600 hover:underline duration-300"
+  // const linkClasses = "text-orange-600 hover:underline duration-300"
+  const {linkColor} = useUserSettings()
+
+  const linkClasses = classNames({
+    'duration-300': true,
+    'hover:underline': true,
+    'text-orange-600': linkColor == 'orange',
+    'text-blue-600': linkColor == 'blue',
+  })
 
   return (
     <div className="font-serif">
