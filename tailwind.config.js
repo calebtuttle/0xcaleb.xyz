@@ -8,7 +8,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      serif: ['Georgia', 'Times New Roman', ...defaultTheme.fontFamily.serif]
+      serif: ['Times New Roman', 'Georgia', ...defaultTheme.fontFamily.serif]
     },
     extend: {},
   },
