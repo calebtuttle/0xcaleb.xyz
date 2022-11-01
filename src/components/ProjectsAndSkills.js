@@ -27,13 +27,7 @@ export default function ProjectsAndSkills() {
               <a href="https://holonym.id" target="_blank" rel="noreferrer" className={linkClasses}>
                 Holonym
               </a>
-              , the Smart Identity Wallet
-            </li>
-            <li>~ 
-              Building a commons for scientific data at&nbsp;
-              <a href="https://opsci.io/" target="_blank" rel="noreferrer" className={linkClasses}>
-                OpSci
-              </a>
+              , the ZK Passport for Web3
             </li>
           </ul>
           <div className="h-4"></div>
@@ -62,17 +56,6 @@ export default function ProjectsAndSkills() {
               </a>
             </li>
             <li>~ 
-              Used&nbsp;
-              <a href="https://hedera22.devpost.com/" target="_blank" rel="noreferrer" className={linkClasses}>
-               Holonym&nbsp;
-              </a>
-              to write a&nbsp;
-              <a href="https://hedera22.devpost.com/" target="_blank" rel="noreferrer" className={linkClasses}>
-              browser extension&nbsp;
-              </a>
-              that allows lookup of blockchain addresses given Twitter handles
-            </li>
-            <li>~ 
               Implemented a simple version of Bitcoin in Python (see&nbsp;
               <a href="https://github.com/calebtuttle/localcrypto" target="_blank" rel="noreferrer" className={linkClasses}>
                here
@@ -92,6 +75,8 @@ export default function ProjectsAndSkills() {
             <li>~ Solidity</li>
             <li>~ Python</li>
             <li>~ SQL</li>
+            <li>~ AWS</li>
+            <li>~ Terraform</li>
           </ul>
           <div className="h-4"></div>
 
